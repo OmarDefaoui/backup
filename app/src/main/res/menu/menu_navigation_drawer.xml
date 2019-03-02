@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_upload"
+            android:icon="@drawable/ic_cloud_download"
+            android:title="Download" />
+        <item
+            android:id="@+id/nav_download"
+            android:icon="@drawable/ic_cloud_upload"
+            android:title="Upload" />
+    </group>
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_contactdev"
+                android:icon="@drawable/ic_mail_dev"
+                android:title="Contact developer" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share app" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_rate_review"
+                android:title="Rate" />
+            <item
+                android:id="@+id/nav_donation"
+                android:icon="@drawable/ic_paypal"
+                android:title="Make a donation" />
+            <item
+                android:id="@+id/nav_fb"
+                android:icon="@drawable/ic_message_fb"
+                android:title="My facebook page" />
+        </menu>
+    </item>
+
+</menu>

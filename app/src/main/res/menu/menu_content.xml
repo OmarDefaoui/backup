@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.omardev.backuptest.ContentActivity">
+
+    <item
+        android:id="@+id/nav_donation"
+        android:icon="@drawable/ic_paypal"
+        android:title="Make a donation" />
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_share"
+        android:title="Share app" />
+    <item
+        android:id="@+id/nav_rate"
+        android:icon="@drawable/ic_rate_review"
+        android:title="Rate" />
+</menu>
